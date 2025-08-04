@@ -16,6 +16,8 @@ import (
 	"strconv"
 )
 
+// Package lambdacontext provides helpers for accessing context information from an Invoke request.
+// It contains the LambdaContext type, which holds metadata about the current Lambda Function invocation,
 // LogGroupName is the name of the log group that contains the log streams of the current Lambda Function
 var LogGroupName string
 

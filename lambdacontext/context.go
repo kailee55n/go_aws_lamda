@@ -5,6 +5,7 @@
 // are used to retrieving and inserting an instance of LambdaContext.
 // This iis the context information that is passed to the Lambda Function
 // when it is invoked. It contains information about the Lambda Function, the calling application,
+// and the Cognito Identity used by the calling application.
 package lambdacontext
 
 import (

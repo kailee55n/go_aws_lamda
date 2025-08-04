@@ -6,6 +6,8 @@
 // This iis the context information that is passed to the Lambda Function
 // when it is invoked. It contains information about the Lambda Function, the calling application,
 // and the Cognito Identity used by the calling application.
+// This package is intended to be used in conjunction with the AWS Lambda Go SDK.
+// See https://docs.aws.amazon.com/lambda/latest/dg/golang-handler.html for more
 package lambdacontext
 
 import (

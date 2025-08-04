@@ -3,7 +3,8 @@
 // Helpers for accessing context information from an Invoke request. Context information
 // is stored in a https://golang.org/pkg/context/#Context. The functions FromContext and NewContext
 // are used to retrieving and inserting an instance of LambdaContext.
-
+// This iis the context information that is passed to the Lambda Function
+// when it is invoked. It contains information about the Lambda Function, the calling application,
 package lambdacontext
 
 import (
